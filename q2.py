@@ -7,9 +7,6 @@ def rel_err(p, p_):
     return abs((p - p_) / p)
 
 if __name__ == '__main__':
-    p = 124
-    p_ = 7
-
     print(f'abs error for p=1 and p*=0.9994:', abs_err(1, 0.9994))
     print(f'rel error for p=1 and p*=0.9994:', rel_err(1, 0.9994))
     print('')
